@@ -1,0 +1,20 @@
+{
+  "name": "jorge/coffeetime",
+  "description": "Projeto destinado a aprender MVC, Injeção e Inversão de Dependências e praticar POO.",
+  "autoload": {
+    "psr-4": {
+      "Jorge\\Coffeetime\\": "src/",
+      "Config\\": "config/",
+      "DAO\\": "src/DAO/",
+      "Models\\": "src/Models/",
+      "Controllers\\": "src/Controllers/",
+      "Interfaces\\": "src/Interfaces"
+    }
+  },
+  "authors": [
+    {
+      "name": "Jorge Aguiar"
+    }
+  ],
+  "require": {}
+}
